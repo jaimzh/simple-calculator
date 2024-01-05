@@ -12,9 +12,10 @@ function clearDisplay(){
 
 // delete one character (backspace)
 function deButton(){
-    display.value
+    display.value = display.value.toString().slice(0,-1);
 }
 
+//calculate
 function calculate() {
     var display = document.getElementById('display');
     try {
