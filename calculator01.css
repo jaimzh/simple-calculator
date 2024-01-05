@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.cdnfonts.com/css/ds-digital');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Orbitron;
+}
+
+.container{
+    background-color: rgb(142, 142, 142);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    background-color: rgb(36, 36, 36);
+    padding: 20px;
+    border-radius: 10px;
+}
+.buttons-display{
+    text-align: center;
+    width: 300px;
+   height: 450px
+
+}
+
+#display{
+    font-family: 'DS-Digital', Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    text-align: right;
+    width: 282px;
+    height: 80px;
+    padding: 20px;
+    background-color: rgb(31, 31, 31);
+    color: rgb(220, 255, 233);
+    border: none;
+    margin: 10px 5px;
+    border-radius: 10px;
+    box-shadow:inset 5px 5px 4px 0px rgba(0, 0, 0, 0.167) ;
+    cursor: pointer;
+    text-shadow:  0 0 10px   #00ff2f ;
+    
+   
+}
+
+
+
+button{
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+    background-color: rgb(44, 44, 44);
+    color: white;
+    border: none;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: -5px -5px 5px 0px rgba(255, 255, 255, 0.167), 4px 4px 6px 0px rgba(0, 0, 0, 0.473) ;
+    cursor: pointer;
+    font-size:16px ;
+    transition: background-color 0.4s ease-in-out;
+}
+
+button.equal{
+    width: 133px
+}
+
+button:hover{
+    background-color: rgb(60, 60, 60);
+}
+
+button:active{
+    background-color: rgb(44, 44, 44);
+    box-shadow: -2px -2px 3px 0px rgba(255, 255, 255, 0.167), 2px 2px 3px 0px rgba(0, 0, 0, 0.473);
+    transform: scale(0.99);
+    transition: none;
+
+}
+
+.errorx {
+    font-size: 60px;
+    text-align: right;
+    width: 282px;
+    height: 80px;
+    padding: 20px;
+    background-color: rgb(105, 105, 105);
+    color: rgb(220, 255, 233);
+    border: none;
+    margin: 10px 5px;
+    border-radius: 10px;
+    box-shadow:inset 5px 5px 4px 0px rgba(0, 0, 0, 0.167) ;
+    cursor: pointer;
+ }
+
+ .grnBtn{
+   color: green;
+ }
+
+ .redBtn{
+    color: rgb(255, 0, 0);
+ }
+
